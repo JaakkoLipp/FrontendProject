@@ -1,0 +1,22 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaakkoLipp/FrontEnd.git"
+  },
+  "author": "Jaakko Lipponen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JaakkoLipp/FrontEnd/issues"
+  },
+  "homepage": "https://github.com/JaakkoLipp/FrontEnd#readme",
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  },
+  "description": ""
+}
