@@ -39,7 +39,7 @@
     position: fixed;
     top: 0;
     // scaling issue fix
-    width: 200%;
+    width: 100%;
     opacity: 0.9;
     visibility: hidden;
   
@@ -82,8 +82,8 @@
       }
   
       .portrait {
-        width: 250px;
-        height: 250px;
+        width: 280px;
+        height: 280px;
         background: url('../img/portrait2.png');
         border-radius: 50%;
         border: solid 3px $secondary-color;
