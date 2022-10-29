@@ -23,14 +23,15 @@ h1,
 h2,
 h3 {
     margin: 0;
-    font-weight: 400;
+    font-weight: 800;
     &.lg-heading{
-        font-size: 6rem;
+        font-size: 5rem;
     }
     &.sm-heading{
+      font-weight: 600;
         margin-bottom: 2rem;
-        padding: 0.2rem 1rem;
-        background: rgba(lighten($primary-color, $amount: 2),0.5);
+        padding: 0.5 rem 0.5rem;
+        background: rgba(lighten($primary-color, $amount: 2),0);
     }
 }
 
@@ -78,7 +79,7 @@ main {
     .bio-image {
         grid-area: bioimage;
         margin: auto;
-        border-radius: 50%;
+        border-radius: 0%;
         border: $secondary-color 3px solid;
       }
     

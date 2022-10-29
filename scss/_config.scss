@@ -1,8 +1,8 @@
-$primary-color: #444;
-$secondary-color: #1aee2c;
+$primary-color: #535E66;
+$secondary-color: #FFE882;
 $show-home-image: true;
-$home-image: url(../img/background.jpg);
-$background-opacity: 0.9;
+$home-image: url(../img/saulbg.png);
+$background-opacity: 0.5;
 
 @mixin easeOut {
   transition: all 0.5s ease-out;
