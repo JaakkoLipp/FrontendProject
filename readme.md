@@ -12,6 +12,10 @@ https://en.wikipedia.org/wiki/Better_Call_Saul
 
 Index.html located inside dist folder, which is the mnain folder for the project.\
 
+
+Vscode liveserver view used to view locally.\
+recommended to use github pages version for viewing.\
+
 to generate new css files use command:\
 "npm run sass"\
 to deploy site use:\
