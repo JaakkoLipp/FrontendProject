@@ -1,6 +1,10 @@
 Final product: \
 https://jaakkolipp.github.io/FrontendProject
-
+\
+Demo video:\
+https://raw.githubusercontent.com/JaakkoLipp/FrontendProject/main/N%C3%A4ytt%C3%B6tallennevideo.webm
+\
+\
 Project focuses on making a web precense for a fictional law office.\
 https://en.wikipedia.org/wiki/Better_Call_Saul
 
@@ -19,3 +23,5 @@ https://github.com/JaakkoLipp/FrontEndSDS
 \
 example used:\
 https://github.com/bradtraversy/modern_portfolio
+
+
