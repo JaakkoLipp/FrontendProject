@@ -1,5 +1,5 @@
 Final product: \
-https://jaakkolipp.github.io/FrontendProject/
+https://jaakkolipp.github.io/FrontendProject
 
 Project focuses on making a web precense for a fictional law office.\
 https://en.wikipedia.org/wiki/Better_Call_Saul
@@ -15,7 +15,7 @@ Dependencies incl.:\
 sass, npm\
 \
 issues with coursework folder git, coursework also as a .zip in repo\
-https://github.com/JaakkoLipp/FrontEndSDS\
+https://github.com/JaakkoLipp/FrontEndSDS
 \
 example used:\
-https://github.com/bradtraversy/modern_portfolio\
+https://github.com/bradtraversy/modern_portfolio
