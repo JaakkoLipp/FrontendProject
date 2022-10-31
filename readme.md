@@ -1,3 +1,4 @@
+Jaakko Lipponen \
 Final product: \
 https://jaakkolipp.github.io/FrontendProject
 \
