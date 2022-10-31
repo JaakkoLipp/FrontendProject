@@ -33,7 +33,14 @@ h3 {
         padding: 0.5 rem 0.5rem;
         background: rgba(lighten($primary-color, $amount: 2),0);
     }
+    &.lg-heading-info{
+      font-size: 4rem;
+      padding-left: 5rem;
+      padding-right: 5rem;  
+      padding-bottom: 2rem;
+  }
 }
+
 
 a {
     color: white;
@@ -106,15 +113,77 @@ main {
         border-bottom: $secondary-color 5px solid;
       }
 }
+.choose-info {
+  padding-right: 5rem;
+  padding-left: 5rem;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas:
+    'salestext-image salestext-image'
+    'salestext salestext'
+    'salestext-image2 salestext-image2'
+    'salestext2 salestext2';
+  grid-template-columns: repeat(1, 1fr);
+
+  .salestext-image {
+      grid-area: salestext-image;
+      margin: auto;
+      border-radius: 0%;
+      width: 100%;
+      
+      max-width: 1000px;
+      border: $secondary-color 5px solid;
+    }
+    .salestext-image2 {
+      grid-area: salestext-image2;
+      margin: auto;
+      border-radius: 0%;
+      width: 100%;
+      max-width: 500px;
+      border: $secondary-color 5px solid;
+    }
+
+    .salestext2 {
+      padding-left: 20%;
+      padding-right: 20%;
+      grid-area: salestext2;
+      font-size: 1.2rem;
+    }
+    .salestext {
+      text-align: center;
+      padding-left: 15%;
+      padding-right: 15%; 
+      grid-area: salestext;
+      font-size: 1.2rem;
+    }
+  
+    .job-1 {
+      grid-area: job1;
+    }
+  
+    .job-2 {
+      grid-area: job2;
+    }
+  
+    .job-3 {
+      grid-area: job3;
+    }
+  
+    .job {
+      background: lighten($primary-color, 5);
+      padding: 0.5rem;
+      border-bottom: $secondary-color 5px solid;
+    }
+}
 
 .projects {
     display: grid;
-    grid-gap: 1rem;
+    grid-gap: 0.7rem;
     grid-template-columns: repeat(3, 1fr);
   
     img {
       width: 100%;
-      object-fit: contain;
+      border: 3px #fff solid;
   
       &:hover {
         opacity: 0.5;
@@ -171,7 +240,7 @@ main {
     background: lighten($primary-color, 50);
     color: #333;
   }
-  
+
   #main-footer {
     text-align: center;
     padding: 1rem;
