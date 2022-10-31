@@ -291,6 +291,22 @@ main {
       border-color: #FFE882;
       transition: all 0.5s ease-out; }
 
+.office {
+  justify-content: space-evenly;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; }
+
+.contact-image {
+  margin: auto;
+  border-radius: 0%;
+  width: 100%;
+  max-width: fit-content;
+  min-width: auto;
+  border: white 5px solid; }
+
 .boxes {
   display: flex;
   flex-wrap: wrap;
