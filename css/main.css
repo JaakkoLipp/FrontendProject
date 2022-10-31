@@ -251,7 +251,7 @@ main {
   padding-left: 5rem;
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'salestext-image salestext-image' 'salestext salestext' 'salestext-image2 salestext-image2' 'salestext2 salestext2';
+  grid-template-areas: 'salestext-image' 'salestext' 'salestext-image2' 'salestext2';
   grid-template-columns: repeat(1, 1fr); }
   .choose-info .salestext-image {
     grid-area: salestext-image;
@@ -278,16 +278,6 @@ main {
     padding-right: 15%;
     grid-area: salestext;
     font-size: 1.2rem; }
-  .choose-info .job-1 {
-    grid-area: job1; }
-  .choose-info .job-2 {
-    grid-area: job2; }
-  .choose-info .job-3 {
-    grid-area: job3; }
-  .choose-info .job {
-    background: #5e6b74;
-    padding: 0.5rem;
-    border-bottom: #FFE882 5px solid; }
 
 .projects {
   display: grid;
