@@ -119,10 +119,10 @@ main {
   display: grid;
   grid-gap: 30px;
   grid-template-areas:
-    'salestext-image salestext-image'
-    'salestext salestext'
-    'salestext-image2 salestext-image2'
-    'salestext2 salestext2';
+    'salestext-image'
+    'salestext'
+    'salestext-image2'
+    'salestext2';
   grid-template-columns: repeat(1, 1fr);
 
   .salestext-image {
@@ -155,24 +155,6 @@ main {
       padding-right: 15%; 
       grid-area: salestext;
       font-size: 1.2rem;
-    }
-  
-    .job-1 {
-      grid-area: job1;
-    }
-  
-    .job-2 {
-      grid-area: job2;
-    }
-  
-    .job-3 {
-      grid-area: job3;
-    }
-  
-    .job {
-      background: lighten($primary-color, 5);
-      padding: 0.5rem;
-      border-bottom: $secondary-color 5px solid;
     }
 }
 
