@@ -1,3 +1,5 @@
+Final product: https://jaakkolipp.github.io/FrontendProject/
+
 Project focuses on making a web precense for a fictional law office.
 https://en.wikipedia.org/wiki/Better_Call_Saul
 
