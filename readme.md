@@ -15,7 +15,7 @@ Dependencies incl.:\
 sass, npm\
 \
 issues with coursework folder git, coursework also as a .zip in repo\
-https://jaakkolipp.github.io/FrontendProject/index.html\
+https://github.com/JaakkoLipp/FrontEndSDS\
 \
 example used:\
 https://github.com/bradtraversy/modern_portfolio\
