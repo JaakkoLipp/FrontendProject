@@ -109,12 +109,12 @@ main {
 
 .projects {
     display: grid;
-    grid-gap: 0.7rem;
+    grid-gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
   
     img {
       width: 100%;
-      border: 3px #fff solid;
+      object-fit: contain;
   
       &:hover {
         opacity: 0.5;
@@ -124,7 +124,6 @@ main {
     }
   }
 
-  
   .boxes {
     display: flex;
     flex-wrap: wrap;
